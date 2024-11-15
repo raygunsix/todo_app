@@ -2,6 +2,8 @@ import functions
 import FreeSimpleGUI as sg
 import time
 
+sg.theme("SandyBeach")
+
 clock = sg.Text("", key='clock') 
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo", key="todo")
